@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$color-green-300: #b5e48c;
+$color-green-400: #99d98c;
+$color-green-600: #52b69a;
+$color-green-700: #34a0a4;
+
+$color-orange-300: #ffba08;
+$color-orange-400: #faa307;
+$color-orange-600: #f48c06;
+$color-orange-700: #ff7b00;
+$color-orange-800: #eb5e28;
+
+$color-white-light: #f7fff7;
+$color-black-light: #333533;
+
+$text-xs: 12px;
+$text-sm: 14px;
+$text-base: 16px;
+$text-md: 20px;
+$text-lg: 24px;
+$text-xl: 32px;
+$text-2xl: 48px;
+$text-3xl: 64px;
+$text-4xl: 80px;
+
+$text-light: 300;
+$text-regular: 400;
+$text-semiBold: 600;
+$text-bold: 700;
+
+$break-point-xs: 576px;
+$break-point-sm: 768px;
+$break-point-md: 992px;
+$break-point-lg: 1200px;
