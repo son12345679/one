@@ -208,96 +208,93 @@ html {
   background: transparent;
   border: 1px solid #f7fff7;
 }
-
 /* abc */
-
-
 .demi-search {
-  padding: 1% 17% 0% 17%;
+  padding: 1% 47% 0% 20%;
   display: flex;
-  justify-content: center;
-  vertical-align: middle;
+  justify-content: space-between;
 }
 
-.demi-search p{
+.demi-search center strong{
   color: #eb5e28;
-  font-size: 20px;
+  font-size: 25px;
 }
-
-.demi-search .small-search {
-  margin: 1% 20%;
-  height: 200%;
-  width: 100%;
-}
-
 .contents {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  padding: 1% 7% 1% 7%;
+  padding: 1% 20% 1% 20%;
+  
+}
+.contents .content-left{
+  margin: 0% 2% 0% 0%;
+}
+.contents .content-left .card-img {
+  border: solid;
 }
 
-.contents .content-left {
-  width: 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-}
-
-.contents .content-left .clear-filter {
+.contents .content-right .card {
+width: auto;
+height: auto;
+border: solid;
 display: flex;
-flex-direction: column;
 }
-
-.contents .content-right .row .card .card-body h5 {
-  text-align: center;
+.contents .content-right .card .card-body .card-title{
+  justify-content: center;
 }
-
-.contents .content-right .row .card .card-body .shop-infor {
+.contents .content-right .card .card-body .row{
   display: flex;
 }
+.total{
+  margin: 0% 37% 0% 42.5%;
+width: auto;
+height: auto;
+justify-content: center;
 
-.contents .content-right .row .card .card-body .shop-infor .shop-price {
+}
+.total .card{
+border: solid;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin: 1% 20%;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+.other-products{
+  display: flex;
+  margin: 1% 20%;
+  justify-content: space-between;
+}
+.other-products .card{
+  width: 24%;
+}
+.other-products .card .card-body .shop-infor .shop-price {
   width: 50%;
   color: #e63946;
   font-size: 20px;
   margin-top: 10px;
 }
-
-.contents .content-right .row .card .card-body .shop-infor .shop-orders {
-  width: 50%;
-  text-align: right;
-}
-
-.contents .content-right .row .card .card-body .shop-infor .shop-orders i {
+.other-products .card .card-body .shop-infor .shop-orders i {
   font-size: 14px;
   color: #ffd166;
   height: 100%;
 }
-
-.contents .content-right .row .card .card-body p {
-  font-size: 16px;
-  color: #636363;
-  margin-bottom: 15px;
-  padding: 10px;
-}
-
-.contents .content-right{
-  width: 85%;
-  justify-content: flex-end;
-}
-
-.contents .content-right .row {
-  justify-content:space-around;
-}
-
-.contents .content-right .row .card {
-  width: 23%;
-}
 .prior-next {
   display: flex;
-  margin: 0% 0% 1% 50%;
+  justify-content: center;
 }
 .prior-next .prior {
   margin: 0% 3% 0% 0%;
@@ -305,5 +302,3 @@ flex-direction: column;
 .prior-next .next {
   margin: 0% 0% 0% 3%;
 }
-
-/*# sourceMappingURL=pet_shop.css.map */

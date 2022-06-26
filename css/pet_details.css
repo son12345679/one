@@ -209,101 +209,41 @@ html {
   border: 1px solid #f7fff7;
 }
 
-/* abc */
+  /* abc */
+  .demi-search {
+    padding: 1% 50% 0% 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .demi-search center strong{
+    color: #eb5e28;
+    font-size: 20px;
+  }
 
-
-.demi-search {
-  padding: 1% 17% 0% 17%;
-  display: flex;
+  .contents {
+    display: flex;
+    padding: 1% 30% 1% 19%;
+  }
+  .contents .content-left{
+    margin: 0% 2% 0% 0%;
+  }
+  .contents .content-left .card-img {
+    border: solid;
+  }
+  
+.contents .content-right .card {
+  width: auto;
+  height: auto;
+  border: solid;
+}
+.contact{
+  padding: 1% 30% 1% 19%;
+  width: auto;
+  height: auto;
   justify-content: center;
-  vertical-align: middle;
+  
 }
-
-.demi-search p{
-  color: #eb5e28;
-  font-size: 20px;
+.contact .card{
+  border: solid;
 }
-
-.demi-search .small-search {
-  margin: 1% 20%;
-  height: 200%;
-  width: 100%;
-}
-
-.contents {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1% 7% 1% 7%;
-}
-
-.contents .content-left {
-  width: 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-}
-
-.contents .content-left .clear-filter {
-display: flex;
-flex-direction: column;
-}
-
-.contents .content-right .row .card .card-body h5 {
-  text-align: center;
-}
-
-.contents .content-right .row .card .card-body .shop-infor {
-  display: flex;
-}
-
-.contents .content-right .row .card .card-body .shop-infor .shop-price {
-  width: 50%;
-  color: #e63946;
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-.contents .content-right .row .card .card-body .shop-infor .shop-orders {
-  width: 50%;
-  text-align: right;
-}
-
-.contents .content-right .row .card .card-body .shop-infor .shop-orders i {
-  font-size: 14px;
-  color: #ffd166;
-  height: 100%;
-}
-
-.contents .content-right .row .card .card-body p {
-  font-size: 16px;
-  color: #636363;
-  margin-bottom: 15px;
-  padding: 10px;
-}
-
-.contents .content-right{
-  width: 85%;
-  justify-content: flex-end;
-}
-
-.contents .content-right .row {
-  justify-content:space-around;
-}
-
-.contents .content-right .row .card {
-  width: 23%;
-}
-.prior-next {
-  display: flex;
-  margin: 0% 0% 1% 50%;
-}
-.prior-next .prior {
-  margin: 0% 3% 0% 0%;
-}
-.prior-next .next {
-  margin: 0% 0% 0% 3%;
-}
-
-/*# sourceMappingURL=pet_shop.css.map */
