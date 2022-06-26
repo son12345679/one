@@ -210,7 +210,9 @@ html {
 }
 
 /* abc */
-
+a{
+  text-decoration: none;
+}
 
 .demi-search {
   padding: 1% 17% 0% 17%;
@@ -248,6 +250,10 @@ html {
 .contents .content-left .clear-filter {
 display: flex;
 flex-direction: column;
+justify-content: space-between;
+}
+.contents .content-left .clear-filter .fillter {
+  margin-top: 10px;
 }
 
 .contents .content-right .row .card .card-body h5 {

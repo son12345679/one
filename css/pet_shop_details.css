@@ -210,6 +210,9 @@ html {
 }
 
 /* abc */
+a{
+  text-decoration: none;
+}
 .demi-search {
   padding: 1% 20% 0% 20%;
   display: flex;

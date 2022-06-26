@@ -209,6 +209,9 @@ body {
     border: 1px solid #f7fff7;
   }
   /* abc */
+  a{
+    text-decoration: none;
+  }
   .note{
     margin: 1% 0%;
     display: flex;

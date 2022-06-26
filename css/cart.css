@@ -209,6 +209,9 @@ html {
   border: 1px solid #f7fff7;
 }
 /* abc */
+a{
+  text-decoration: none;
+}
 .demi-search {
   padding: 1% 47% 0% 20%;
   display: flex;
